@@ -8,4 +8,6 @@ class Category < ActiveRecord::Base
   
   scope :active, where('active = ?', true)
   scope :alphabetical, order('name')
+  
+  
 end
